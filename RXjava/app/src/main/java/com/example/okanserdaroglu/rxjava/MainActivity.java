@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     /** 30 yaş ve 30 yaştan küçükler  ObserverAge*/
     /** 30 yaş ve 30 yaştan büyük erkeklerin yaşını 30 diye değiştir*/
 
+    int x = 5;
     private static final String TAG = MainActivity.class.getSimpleName();
 
     CompositeDisposable compositeDisposable = new CompositeDisposable();
